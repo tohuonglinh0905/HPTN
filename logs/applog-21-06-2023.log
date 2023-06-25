@@ -1,0 +1,625 @@
+[INFO ] 21-06-2023 11:40:20 [main] [Log] - Loaded all properties files.
+[INFO ] 21-06-2023 11:40:20 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 21-06-2023 11:40:20 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 21-06-2023 11:40:21 [main] [Log] - TestBase: beforeSuite
+[INFO ] 21-06-2023 11:40:24 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 21-06-2023 11:40:24 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 21-06-2023 11:40:33 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  Addresses
+[INFO ] 21-06-2023 11:40:36 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 21-06-2023 11:40:37 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 21-06-2023 11:40:37 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 21-06-2023 11:40:38 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 21-06-2023 11:40:38 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 21-06-2023 11:40:39 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 21-06-2023 11:40:39 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 21-06-2023 11:40:39 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 21-06-2023 11:40:39 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 21-06-2023 11:40:40 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Log in'] : visible
+[INFO ] 21-06-2023 11:40:40 [main] [Log] - waitForElementVisible: Element //a[text()='Log in'] : visible
+[INFO ] 21-06-2023 11:40:40 [main] [Log] - waitForElementClickable: Element //a[text()='Log in'] : clickable
+[INFO ] 21-06-2023 11:40:41 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 21-06-2023 11:40:41 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 21-06-2023 11:40:42 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Log in'] : visible
+[INFO ] 21-06-2023 11:40:42 [main] [Log] - waitForElementClickable: Element //button[text()='Log in'] : clickable
+[INFO ] 21-06-2023 11:40:43 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Addresses'] : visible
+[INFO ] 21-06-2023 11:40:43 [main] [Log] - waitForElementVisible: Element //a[text()='Addresses'] : visible
+[INFO ] 21-06-2023 11:40:43 [main] [Log] - waitForElementVisible: Element //a[text()='Addresses'] : visible
+[INFO ] 21-06-2023 11:40:43 [main] [Log] - waitForElementClickable: Element //a[text()='Addresses'] : clickable
+[INFO ] 21-06-2023 11:40:44 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Add new'] : visible
+[INFO ] 21-06-2023 11:40:44 [main] [Log] - waitForElementClickable: Element //button[text()='Add new'] : clickable
+[INFO ] 21-06-2023 11:40:45 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Address.FirstName'] : visible
+[INFO ] 21-06-2023 11:40:45 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Address.LastName'] : visible
+[INFO ] 21-06-2023 11:40:45 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Address.Email'] : visible
+[INFO ] 21-06-2023 11:40:46 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Address.Company'] : visible
+[INFO ] 21-06-2023 11:40:46 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //select[@name='Address.CountryId'] : visible
+[INFO ] 21-06-2023 11:40:49 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Address.City'] : visible
+[INFO ] 21-06-2023 11:40:49 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Address.Address1'] : visible
+[INFO ] 21-06-2023 11:40:50 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Address.Address2'] : visible
+[INFO ] 21-06-2023 11:40:50 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Address.ZipPostalCode'] : visible
+[INFO ] 21-06-2023 11:40:50 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Address.PhoneNumber'] : visible
+[INFO ] 21-06-2023 11:40:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Save'] : visible
+[INFO ] 21-06-2023 11:40:51 [main] [Log] - waitForElementClickable: Element //button[text()='Save'] : clickable
+[INFO ] 21-06-2023 11:40:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //li[contains(@class, 'email')][text()='linhth3@gmail.com'] : visible
+[INFO ] 21-06-2023 11:40:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //li[contains(@class, 'phone')][text()=' 019283748'] : visible
+[INFO ] 21-06-2023 11:40:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //li[text()="Đống Đa"] : visible
+[INFO ] 21-06-2023 11:40:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //li[text()="Khương Thượng"] : visible
+[INFO ] 21-06-2023 11:40:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //li[text()="HaNoi, 01928284"] : visible
+[INFO ] 21-06-2023 11:40:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //li[text()="Viet Nam"] : visible
+[INFO ] 21-06-2023 11:40:54 [main] [Log] - 
+TestListener: COMPLETED TC: Addresses - PASS 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 11:40:54 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 12:27:21 [main] [Log] - Loaded all properties files.
+[INFO ] 21-06-2023 12:27:21 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 21-06-2023 12:27:22 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 21-06-2023 12:27:22 [main] [Log] - TestBase: beforeSuite
+[INFO ] 21-06-2023 12:27:23 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 21-06-2023 12:27:23 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 21-06-2023 12:27:34 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 21-06-2023 12:27:38 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 21-06-2023 12:27:38 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 21-06-2023 12:27:39 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 21-06-2023 12:27:39 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 21-06-2023 12:27:40 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 21-06-2023 12:27:40 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 21-06-2023 12:27:40 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 21-06-2023 12:27:41 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 21-06-2023 12:27:41 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 21-06-2023 12:27:41 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 12:27:41 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 21-06-2023 12:27:42 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 21-06-2023 12:27:43 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 21-06-2023 12:27:43 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 21-06-2023 12:27:43 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 21-06-2023 12:27:43 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 21-06-2023 12:27:43 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 21-06-2023 12:27:43 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 21-06-2023 12:27:43 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 21-06-2023 12:27:43 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 21-06-2023 12:27:44 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 12:27:44 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 21-06-2023 12:27:45 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 21-06-2023 12:27:45 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 21-06-2023 12:27:45 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 21-06-2023 12:27:46 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 21-06-2023 12:27:46 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 21-06-2023 12:27:46 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 21-06-2023 12:27:46 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 21-06-2023 12:27:47 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 21-06-2023 12:27:47 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 21-06-2023 12:27:48 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 12:27:48 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 21-06-2023 12:27:49 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 21-06-2023 12:27:50 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 21-06-2023 12:27:50 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 21-06-2023 12:27:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 21-06-2023 12:27:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 21-06-2023 12:27:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 21-06-2023 12:27:52 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 21-06-2023 12:27:52 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 21-06-2023 12:27:52 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 21-06-2023 12:27:52 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 12:27:52 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 20:41:19 [main] [Log] - Loaded all properties files.
+[INFO ] 21-06-2023 20:41:19 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 21-06-2023 20:41:19 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 21-06-2023 20:41:20 [main] [Log] - TestBase: beforeSuite
+[INFO ] 21-06-2023 20:41:24 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 21-06-2023 20:41:24 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 21-06-2023 20:41:35 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 21-06-2023 20:41:38 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 21-06-2023 20:41:38 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 21-06-2023 20:41:39 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 21-06-2023 20:41:39 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 21-06-2023 20:41:39 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 21-06-2023 20:41:40 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 21-06-2023 20:41:40 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 21-06-2023 20:41:41 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 21-06-2023 20:41:41 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 21-06-2023 20:41:41 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 20:41:42 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 21-06-2023 20:41:42 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 21-06-2023 20:41:43 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 21-06-2023 20:41:43 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 21-06-2023 20:41:43 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 21-06-2023 20:41:43 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 21-06-2023 20:41:43 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 21-06-2023 20:41:43 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 21-06-2023 20:41:43 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 21-06-2023 20:41:43 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 21-06-2023 20:41:44 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 20:41:44 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 21-06-2023 20:41:45 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 21-06-2023 20:41:45 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 21-06-2023 20:41:46 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 21-06-2023 20:41:46 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 21-06-2023 20:41:46 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 21-06-2023 20:41:47 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 21-06-2023 20:41:47 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 21-06-2023 20:41:47 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 21-06-2023 20:41:47 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 21-06-2023 20:41:48 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 20:41:48 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 21-06-2023 20:41:50 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 21-06-2023 20:41:50 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 21-06-2023 20:41:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 21-06-2023 20:41:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 21-06-2023 20:41:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 21-06-2023 20:41:52 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 21-06-2023 20:41:52 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 21-06-2023 20:41:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 21-06-2023 20:41:53 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 21-06-2023 20:41:53 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 20:41:53 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:10:30 [main] [Log] - Loaded all properties files.
+[INFO ] 21-06-2023 21:10:30 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 21-06-2023 21:10:30 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:10:31 [main] [Log] - TestBase: beforeSuite
+[INFO ] 21-06-2023 21:10:32 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 21-06-2023 21:10:32 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 21-06-2023 21:10:43 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 21-06-2023 21:10:46 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 21-06-2023 21:10:46 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 21-06-2023 21:10:47 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 21-06-2023 21:10:47 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 21-06-2023 21:10:48 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 21-06-2023 21:10:48 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 21-06-2023 21:10:48 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 21-06-2023 21:10:49 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 21-06-2023 21:10:49 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 21-06-2023 21:10:49 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:10:50 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 21-06-2023 21:10:50 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 21-06-2023 21:10:51 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 21-06-2023 21:10:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 21-06-2023 21:10:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 21-06-2023 21:10:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 21-06-2023 21:10:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 21-06-2023 21:10:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 21-06-2023 21:10:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 21-06-2023 21:10:51 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 21-06-2023 21:10:52 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:10:52 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 21-06-2023 21:10:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 21-06-2023 21:10:53 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 21-06-2023 21:10:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 21-06-2023 21:10:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 21-06-2023 21:10:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 21-06-2023 21:10:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 21-06-2023 21:10:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 21-06-2023 21:10:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 21-06-2023 21:10:55 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 21-06-2023 21:10:56 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:10:56 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 21-06-2023 21:10:57 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 21-06-2023 21:10:57 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 21-06-2023 21:10:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 21-06-2023 21:10:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 21-06-2023 21:10:59 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 21-06-2023 21:10:59 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 21-06-2023 21:10:59 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 21-06-2023 21:11:00 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 21-06-2023 21:11:00 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 21-06-2023 21:11:00 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:11:00 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:32:21 [main] [Log] - Loaded all properties files.
+[INFO ] 21-06-2023 21:32:21 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 21-06-2023 21:32:21 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:32:23 [main] [Log] - TestBase: beforeSuite
+[INFO ] 21-06-2023 21:32:24 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 21-06-2023 21:32:24 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 21-06-2023 21:32:35 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 21-06-2023 21:32:38 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 21-06-2023 21:32:38 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 21-06-2023 21:32:39 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 21-06-2023 21:32:39 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 21-06-2023 21:32:39 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 21-06-2023 21:32:40 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 21-06-2023 21:32:40 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 21-06-2023 21:32:41 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 21-06-2023 21:32:41 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 21-06-2023 21:32:41 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:32:41 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 21-06-2023 21:32:42 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 21-06-2023 21:32:42 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 21-06-2023 21:32:43 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 21-06-2023 21:32:43 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 21-06-2023 21:32:43 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 21-06-2023 21:32:43 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 21-06-2023 21:32:43 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 21-06-2023 21:32:43 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 21-06-2023 21:32:44 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 21-06-2023 21:32:44 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:32:44 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 21-06-2023 21:32:45 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 21-06-2023 21:32:45 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 21-06-2023 21:32:46 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 21-06-2023 21:32:46 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 21-06-2023 21:32:46 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 21-06-2023 21:32:47 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 21-06-2023 21:32:47 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 21-06-2023 21:32:48 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 21-06-2023 21:32:48 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 21-06-2023 21:32:48 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:32:48 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  RegisterPage_03
+[INFO ] 21-06-2023 21:32:50 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 21-06-2023 21:32:50 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 21-06-2023 21:32:50 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 21-06-2023 21:32:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 21-06-2023 21:32:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 21-06-2023 21:32:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 21-06-2023 21:32:52 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 21-06-2023 21:32:52 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 21-06-2023 21:32:52 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 21-06-2023 21:32:52 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:32:52 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:35:27 [main] [Log] - Loaded all properties files.
+[INFO ] 21-06-2023 21:35:27 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 21-06-2023 21:35:27 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:35:28 [main] [Log] - TestBase: beforeSuite
+[INFO ] 21-06-2023 21:35:30 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 21-06-2023 21:35:30 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 21-06-2023 21:35:40 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:35:41 [main] [Log] - captureScreenshot: Screenshot taken current URL: data:,
+[INFO ] 21-06-2023 21:35:42 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:36:32 [main] [Log] - Loaded all properties files.
+[INFO ] 21-06-2023 21:36:32 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 21-06-2023 21:36:33 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:36:34 [main] [Log] - TestBase: beforeSuite
+[INFO ] 21-06-2023 21:36:35 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 21-06-2023 21:36:35 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 21-06-2023 21:36:44 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:36:45 [main] [Log] - captureScreenshot: Screenshot taken current URL: data:,
+[INFO ] 21-06-2023 21:36:45 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:37:44 [main] [Log] - Loaded all properties files.
+[INFO ] 21-06-2023 21:37:44 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 21-06-2023 21:37:44 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:37:45 [main] [Log] - TestBase: beforeSuite
+[INFO ] 21-06-2023 21:37:47 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 21-06-2023 21:37:47 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 21-06-2023 21:37:56 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:37:56 [main] [Log] - captureScreenshot: Screenshot taken current URL: data:,
+[INFO ] 21-06-2023 21:37:57 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:38:35 [main] [Log] - Loaded all properties files.
+[INFO ] 21-06-2023 21:38:35 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 21-06-2023 21:38:36 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:38:37 [main] [Log] - TestBase: beforeSuite
+[INFO ] 21-06-2023 21:38:39 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 21-06-2023 21:38:39 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 21-06-2023 21:38:48 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:38:48 [main] [Log] - captureScreenshot: Screenshot taken current URL: data:,
+[INFO ] 21-06-2023 21:38:49 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:39:37 [main] [Log] - Loaded all properties files.
+[INFO ] 21-06-2023 21:39:37 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 21-06-2023 21:39:37 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:39:38 [main] [Log] - TestBase: beforeSuite
+[INFO ] 21-06-2023 21:39:39 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 21-06-2023 21:39:39 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 21-06-2023 21:39:50 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:39:51 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:46:01 [main] [Log] - Loaded all properties files.
+[INFO ] 21-06-2023 21:46:01 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 21-06-2023 21:46:01 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:46:02 [main] [Log] - TestBase: beforeSuite
+[INFO ] 21-06-2023 21:46:05 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 21-06-2023 21:46:05 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 21-06-2023 21:46:15 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  Addresses
+[INFO ] 21-06-2023 21:46:18 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Register'] : visible
+[INFO ] 21-06-2023 21:46:19 [main] [Log] - waitForElementClickable: Element //a[text()='Register'] : clickable
+[INFO ] 21-06-2023 21:46:19 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='FirstName'] : visible
+[INFO ] 21-06-2023 21:46:20 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='LastName'] : visible
+[INFO ] 21-06-2023 21:46:20 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 21-06-2023 21:46:20 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 21-06-2023 21:46:21 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='ConfirmPassword'] : visible
+[INFO ] 21-06-2023 21:46:21 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Register'] : visible
+[INFO ] 21-06-2023 21:46:21 [main] [Log] - waitForElementClickable: Element //button[text()='Register'] : clickable
+[INFO ] 21-06-2023 21:46:22 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Log in'] : visible
+[INFO ] 21-06-2023 21:46:22 [main] [Log] - waitForElementVisible: Element //a[text()='Log in'] : visible
+[INFO ] 21-06-2023 21:46:22 [main] [Log] - waitForElementClickable: Element //a[text()='Log in'] : clickable
+[INFO ] 21-06-2023 21:46:23 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 21-06-2023 21:46:23 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 21-06-2023 21:46:23 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Log in'] : visible
+[INFO ] 21-06-2023 21:46:23 [main] [Log] - waitForElementClickable: Element //button[text()='Log in'] : clickable
+[INFO ] 21-06-2023 21:46:24 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()='Addresses'] : visible
+[INFO ] 21-06-2023 21:46:24 [main] [Log] - waitForElementVisible: Element //a[text()='Addresses'] : visible
+[INFO ] 21-06-2023 21:46:24 [main] [Log] - waitForElementVisible: Element //a[text()='Addresses'] : visible
+[INFO ] 21-06-2023 21:46:24 [main] [Log] - waitForElementClickable: Element //a[text()='Addresses'] : clickable
+[INFO ] 21-06-2023 21:46:25 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Add new'] : visible
+[INFO ] 21-06-2023 21:46:25 [main] [Log] - waitForElementClickable: Element //button[text()='Add new'] : clickable
+[INFO ] 21-06-2023 21:46:25 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Address.FirstName'] : visible
+[INFO ] 21-06-2023 21:46:26 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Address.LastName'] : visible
+[INFO ] 21-06-2023 21:46:26 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Address.Email'] : visible
+[INFO ] 21-06-2023 21:46:27 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Address.Company'] : visible
+[INFO ] 21-06-2023 21:46:27 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //select[@name='Address.CountryId'] : visible
+[INFO ] 21-06-2023 21:46:30 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Address.City'] : visible
+[INFO ] 21-06-2023 21:46:30 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Address.Address1'] : visible
+[INFO ] 21-06-2023 21:46:31 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Address.Address2'] : visible
+[INFO ] 21-06-2023 21:46:31 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Address.ZipPostalCode'] : visible
+[INFO ] 21-06-2023 21:46:31 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Address.PhoneNumber'] : visible
+[INFO ] 21-06-2023 21:46:32 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[text()='Save'] : visible
+[INFO ] 21-06-2023 21:46:32 [main] [Log] - waitForElementClickable: Element //button[text()='Save'] : clickable
+[INFO ] 21-06-2023 21:46:35 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //li[contains(@class, 'email')][text()='linhth3@gmail.com'] : visible
+[INFO ] 21-06-2023 21:46:36 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //li[contains(@class, 'phone')][text()=' 019283748'] : visible
+[INFO ] 21-06-2023 21:46:36 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //li[text()="Đống Đa"] : visible
+[INFO ] 21-06-2023 21:46:36 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //li[text()="Khương Thượng"] : visible
+[INFO ] 21-06-2023 21:46:36 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //li[text()="HaNoi, 01928284"] : visible
+[INFO ] 21-06-2023 21:46:36 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //li[text()="Viet Nam"] : visible
+[INFO ] 21-06-2023 21:46:36 [main] [Log] - 
+TestListener: COMPLETED TC: Addresses - PASS 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:46:36 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:46:59 [main] [Log] - Loaded all properties files.
+[INFO ] 21-06-2023 21:46:59 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 21-06-2023 21:46:59 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:47:00 [main] [Log] - TestBase: beforeSuite
+[INFO ] 21-06-2023 21:47:01 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 21-06-2023 21:47:01 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 21-06-2023 21:47:11 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 21:47:11 [main] [Log] - captureScreenshot: Screenshot taken current URL: data:,
+[INFO ] 21-06-2023 21:47:12 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 22:27:28 [main] [Log] - Loaded all properties files.
+[INFO ] 21-06-2023 22:27:28 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 21-06-2023 22:27:28 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 21-06-2023 22:27:29 [main] [Log] - TestBase: beforeSuite
+[INFO ] 21-06-2023 22:27:30 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 21-06-2023 22:27:30 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 21-06-2023 22:27:39 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 22:27:40 [main] [Log] - captureScreenshot: Screenshot taken current URL: data:,
+[INFO ] 21-06-2023 22:27:40 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 22:43:14 [main] [Log] - Loaded all properties files.
+[INFO ] 21-06-2023 22:43:14 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 21-06-2023 22:43:14 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 21-06-2023 22:43:15 [main] [Log] - TestBase: beforeSuite
+[INFO ] 21-06-2023 22:43:16 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 21-06-2023 22:43:17 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 21-06-2023 22:43:26 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  WishList_02
+[INFO ] 21-06-2023 22:43:28 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 21-06-2023 22:43:28 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 21-06-2023 22:43:28 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 21-06-2023 22:43:28 [main] [Log] - waitForElementClickable: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : clickable
+[INFO ] 21-06-2023 22:43:29 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text() = ' Desktops '] : visible
+[INFO ] 21-06-2023 22:43:29 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()=' Desktops '] : visible
+[INFO ] 21-06-2023 22:43:29 [main] [Log] - waitForElementClickable: Element //a[text()=' Desktops '] : clickable
+[INFO ] 21-06-2023 22:43:30 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath:  //h2[@class = 'product-title']//a[text() = 'Build your own computer'] : visible
+[INFO ] 21-06-2023 22:43:30 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h2[@class = 'product-title']//a[text() ='Build your own computer'] : visible
+[INFO ] 21-06-2023 22:43:30 [main] [Log] - waitForElementClickable: Element //h2[@class = 'product-title']//a[text() ='Build your own computer'] : clickable
+[INFO ] 21-06-2023 22:43:31 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 21-06-2023 22:43:31 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 21-06-2023 22:43:31 [main] [Log] - waitForElementClickable: Element //label[text() ='320 GB']//preceding-sibling::input : clickable
+[INFO ] 21-06-2023 22:43:31 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //select[@id = 'product_attribute_2'] : visible
+[INFO ] 21-06-2023 22:43:31 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 21-06-2023 22:43:31 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 21-06-2023 22:43:31 [main] [Log] - waitForElementClickable: Element //button[contains(@id, 'wishlist-button')] : clickable
+[INFO ] 21-06-2023 22:43:32 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@class = 'bar-notification success']//p : visible
+[INFO ] 21-06-2023 22:43:37 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()='Wishlist'] : visible
+[INFO ] 21-06-2023 22:43:37 [main] [Log] - waitForElementVisible: Element //span[text()='Wishlist'] : visible
+[INFO ] 21-06-2023 22:43:38 [main] [Log] - waitForElementClickable: Element //span[text()='Wishlist'] : clickable
+[INFO ] 21-06-2023 22:43:39 [main] [Log] - 
+TestListener: COMPLETED TC: WishList_02 - PASS 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 22:43:39 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 23:00:52 [main] [Log] - Loaded all properties files.
+[INFO ] 21-06-2023 23:00:52 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 21-06-2023 23:00:52 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 21-06-2023 23:00:53 [main] [Log] - TestBase: beforeSuite
+[INFO ] 21-06-2023 23:00:55 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 21-06-2023 23:00:55 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 21-06-2023 23:01:07 [main] [Log] - 
+TestListener: COMPLETED TC: RegisterPage_03 - SKIP 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 23:01:07 [main] [Log] - captureScreenshot: Screenshot taken current URL: data:,
+[INFO ] 21-06-2023 23:01:08 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 23:35:17 [main] [Log] - Loaded all properties files.
+[INFO ] 21-06-2023 23:35:17 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 21-06-2023 23:35:17 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 21-06-2023 23:35:18 [main] [Log] - TestBase: beforeSuite
+[INFO ] 21-06-2023 23:35:19 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 21-06-2023 23:35:19 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\LINH-PC\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 21-06-2023 23:35:28 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  WishList_02
+[INFO ] 21-06-2023 23:35:31 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 21-06-2023 23:35:31 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 21-06-2023 23:35:31 [main] [Log] - waitForElementVisible: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : visible
+[INFO ] 21-06-2023 23:35:31 [main] [Log] - waitForElementClickable: Element //ul[@class = 'top-menu notmobile']//a[text() ='Computers '] : clickable
+[INFO ] 21-06-2023 23:35:32 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text() = ' Desktops '] : visible
+[INFO ] 21-06-2023 23:35:32 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //a[text()=' Desktops '] : visible
+[INFO ] 21-06-2023 23:35:32 [main] [Log] - waitForElementClickable: Element //a[text()=' Desktops '] : clickable
+[INFO ] 21-06-2023 23:35:32 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath:  //h2[@class = 'product-title']//a[text() = 'Build your own computer'] : visible
+[INFO ] 21-06-2023 23:35:32 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h2[@class = 'product-title']//a[text() ='Build your own computer'] : visible
+[INFO ] 21-06-2023 23:35:32 [main] [Log] - waitForElementClickable: Element //h2[@class = 'product-title']//a[text() ='Build your own computer'] : clickable
+[INFO ] 21-06-2023 23:35:33 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 21-06-2023 23:35:33 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text() ='320 GB']//preceding-sibling::input : visible
+[INFO ] 21-06-2023 23:35:33 [main] [Log] - waitForElementClickable: Element //label[text() ='320 GB']//preceding-sibling::input : clickable
+[INFO ] 21-06-2023 23:35:33 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //select[@id = 'product_attribute_2'] : visible
+[INFO ] 21-06-2023 23:35:33 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 21-06-2023 23:35:33 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //button[contains(@id, 'wishlist-button')] : visible
+[INFO ] 21-06-2023 23:35:33 [main] [Log] - waitForElementClickable: Element //button[contains(@id, 'wishlist-button')] : clickable
+[INFO ] 21-06-2023 23:35:34 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[@class = 'bar-notification success']//p : visible
+[INFO ] 21-06-2023 23:35:39 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //span[text()='Wishlist'] : visible
+[INFO ] 21-06-2023 23:35:39 [main] [Log] - waitForElementVisible: Element //span[text()='Wishlist'] : visible
+[INFO ] 21-06-2023 23:35:39 [main] [Log] - waitForElementClickable: Element //span[text()='Wishlist'] : clickable
+[INFO ] 21-06-2023 23:35:40 [main] [Log] - 
+TestListener: COMPLETED TC: WishList_02 - PASS 
+---------------------------------------------------------------
+[INFO ] 21-06-2023 23:35:40 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
